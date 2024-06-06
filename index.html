@@ -17,9 +17,8 @@
   <nav class="navbar navbar-expand-lg bg-info sticky-top">
     <div class="container">
       <a class="navbar-brand fs-3 text-white fw-semibold text-uppercase" href="#">Sriram Kannan</a>
-      <button class="navbar-toggler border-0 outline-0" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler border-0 outline-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars text-white"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbar">
@@ -41,10 +40,13 @@
           </li>
         </ul>
         <div class="flex text-center" id="social">
-          <a href="https://instagram.com/_sriramkannan_" target="_blank" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
-          <a href="https://facebook.com/profile.php?id=100089684622553" target="_blank" class="text-white fs-5"><i class="fab fa-facebook mx-1"></i></a>
+          <a href="https://instagram.com/_sriramkannan_" target="_blank" class="text-white fs-5"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com/profile.php?id=100089684622553" target="_blank" class="text-white fs-5"><i
+              class="fab fa-facebook mx-1"></i></a>
           <a href="#" class="text-white fs-5"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/SriramKannanV" target="_blank" class="text-white fs-5"><i class="fab fa-github mx-1"></i></a>
+          <a href="https://github.com/SriramKannanV" target="_blank" class="text-white fs-5"><i
+              class="fab fa-github mx-1"></i></a>
         </div>
       </div>
     </div>
@@ -244,23 +246,35 @@
     </div>
   </section>
 
+  <!-- banner -->
+  <section class="bg-info container-fluid text-center py-4 mt-4">
+    <div class="container text-white w-50">
+      <h3 class="text-uppercase fw-bold">get you first website build for free!!!</h3>
+      <p class="fw-light">Starting your online journey? I'm offering to build your first website at no cost. Experience professional
+        design and development to kickstart your digital presence. Let's create a stunning, functional site that sets
+        you apart.</p>
+      <a href="#contact"><button class="btn border border-2 text-white">Get Started Now</button></a>
+    </div>
+  </section>
+  
   <!-- contact -->
   <section class="reveal" id="contact">
-    <div class="container py-5 mt-5">
+    <div class="container py-5">
       <h5 class="mb-4 fw-bold text-info text-center">Get in touch</h5>
       <div class="row">
         <div class="col-md-6">
-          <form action="https://api.web3forms.com/submit" method="POST" class="border border-3 border-info rounded-3 p-4">
+          <form action="https://api.web3forms.com/submit" method="POST"
+            class="border border-3 border-info rounded-3 p-4">
             <input type="hidden" name="access_key" value="d6b064ca-5bcd-4f02-80cf-efb68fa77b26">
             <div class="mb-3">
               <label for="name" class="form-label text-white">Full Name</label>
-              <input type="text"
+              <input type="text" name="name"
                 class="form-control border border-top-0 border-start-0 border-end-0 border-info border-3 bg-transparent text-white outline-none"
                 id="name">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label text-white">Email address</label>
-              <input type="email"
+              <input type="email" name="email"
                 class="form-control border border-top-0 border-start-0 border-end-0 border-info border-3 bg-transparent text-white outline-none"
                 id="email">
             </div>
@@ -268,7 +282,7 @@
               <label for="textarea" class="form-label text-white">Comment</label>
               <textarea
                 class="form-control border border-top-0 border-start-0 border-end-0 border-info border-3 bg-transparent text-white outline-none"
-                id="textarea" rows="3"></textarea>
+                id="textarea" rows="3" type="text" name="comment"></textarea>
             </div>
             <button type="submit" class="btn btn-info text-white ">Submit</button>
           </form>
@@ -289,7 +303,8 @@
             <li><a class="text-white text-decoration-none" href="#" alt="Home">Home</a></li>
             <li><a class="text-white text-decoration-none" href="#About" alt="About">About</a></li>
             <li><a class="text-white text-decoration-none" href="#Skills" alt="Skills">Skills</a></li>
-            <li><a class="text-white text-decoration-none" class="disabled" href="#Projects" alt="Projects">Projects</a></li>
+            <li><a class="text-white text-decoration-none" class="disabled" href="#Projects" alt="Projects">Projects</a>
+            </li>
             <li><a class="text-white text-decoration-none" href="#Contact" alt="Contact">Contact</a></li>
           </ul>
         </div>
